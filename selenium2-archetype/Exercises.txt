@@ -1,0 +1,40 @@
+﻿#Exercises
+
+To start the Play! application, execute the "run.bat" command inside the following directory : 
+            C:\formations\selenium\Selenium 2\workspace\AppDemo	
+To use the Play! application, enter the following address into the browser :
+            http://localhost:9000
+
+In the IDE, inside the selenium-archetype project : 
+
+##Exercise 1
+Inside the 'com.serli.selenium' package create a Test class to test the browsing of the site : 'http://www.google.fr'
+
+##Exercise 2
+Export the test of the Play! application previously created from Selenium IDE, through its export tool
+
+##Exercise 3
+Thanks to the "selenium.browser" and "selenium.baseurl" environnement variables, make the previously created test compatible with Chrome, htmlUnit and Internet Explorer
+
+##Exercise 4
+Try the various ways to perform explicit waits :
+ - By using Thread.sleep()
+ - By using the WebDriverWait and ExpectedConditions classes 
+
+##Exercise 5
+Try parallelizing the tests by using Tempus Fugit (3 tests doing somehow the same thing 
+with small shift, and a Concurrent Test Runner annotation)
+
+##Exercise 6
+Try reusing the same browser to perform a series of tests. What is the advantage ?
+
+##Exercise 7
+Use webdriver to take a screen snapshot during a test
+
+##Exercise 8
+Go to the following web page : http://gwt.google.com/samples/Showcase/Showcase.html#!CwDatePicker
+			- Click on the following date : 20 october 2012
+			- Check with an assertion that the date of '20 october 2012' has been correctly taken in account.
+
+##Exercise 9
+Try using the remoteWebDriver with the remote grid
