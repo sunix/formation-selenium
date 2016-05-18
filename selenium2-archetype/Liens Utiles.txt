@@ -1,7 +1,0 @@
-Quelques liens utiles :
-
-    - documentation selenium : http://seleniumhq.org/docs/
-    - xpath checker : https://addons.mozilla.org/fr/firefox/addon/xpath-checker/
-    - w3cschool xpath : http://www.w3schools.com/xpath/default.asp
-    - gwt showcase : https://gwt.google.com/samples/Showcase
-    - plugin+configuration jenkins<->selenium : https://wiki.jenkins-ci.org/display/JENKINS/Selenium+Plugin 
