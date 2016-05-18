@@ -7,7 +7,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<selenium.version>2.43.1</selenium.version>
+		<selenium.version>2.53.0</selenium.version>
 		<slf4j.version>1.6.5</slf4j.version>
 	</properties>
 
@@ -95,12 +95,6 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
-			<version>${selenium.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-htmlunit-driver</artifactId>
 			<version>${selenium.version}</version>
 			<scope>test</scope>
 		</dependency>
