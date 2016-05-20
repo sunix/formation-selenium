@@ -36,7 +36,8 @@ public class Ex10PageObject {
         ManageUserPage manageUserPage = addUserPage.createUser("Doe", "John", "password", "john@doe.com", "123 sturt street");
         Assert.assertTrue(manageUserPage.isUserEmailDisplayed("john@doe.com"));
         EditUserPage editPage = manageUserPage.editUser("john@doe.com");
-        editPage.deleteUser();
+        manageUserPage = editPage.deleteUser();
+        manageUserPage.getHeaderSubPage().logout();
     }
 
     @After
